@@ -10,6 +10,8 @@
         "dewiki":[0],
         "enwiki":[0],
         "frwiki":[0],
+        "eswiki":[0],
+        "ptwiki":[0],
         "arwiki":"*"
     } ,
     "location_templates":{
@@ -19,17 +21,17 @@
         "dewiki":"{{Coordinate|text=DMS|NS=$LAT$|EW=$LON$|name=$ITEM$|simple=y|type=landmark|region=$REGION$}}"
     },
     "wiki_login": {
-        "user": "XXX",
-        "pass": "XXX"
+        "user": "Listeriav2",
+        "pass": "jander01"
     } ,
     "mysql":{
-        "host":"THIS SECTION IS FOR BOT USE ONLY",
-        "user":"XXX",
-        "password":"XXX",
+        "host":"sql2.freemysqlhosting.net",
+        "user":"sql2380749",
+        "password":"dZ4!hI3!",
         "port":3306,
-        "schema":"XXX"
+        "schema":"sql2380749"
     },
-    "location_regions":["dewiki"],
+    "location_regions":["dewiki","eswiki","enwiki","frwiki","arwiki","ptwiki"],
     "default_thumbnail_size" : 128 ,
     "shadow_images_check" : [ "enwiki" ] ,
     "template_start_q" : "Q19860885",
